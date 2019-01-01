@@ -27,6 +27,8 @@ app.use((req, res, next) => {
   next();
 });
 
+// The following line will put the whole site into maintenance status.
+
 // app.use((req,res, next) => {
 //   res.render('maintenance.hbs');
 // });
@@ -52,7 +54,6 @@ app.get('/object', (req, res) => {
     address: 'Brown Street, West Lafayette.'
   });
 });
-
 
 app.listen(port, () => {
   console.log(`The server is running on port ${port}.`);
