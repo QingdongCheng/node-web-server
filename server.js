@@ -27,12 +27,6 @@ app.use((req, res, next) => {
   next();
 });
 
-// The following line will put the whole site into maintenance status.
-
-// app.use((req,res, next) => {
-//   res.render('maintenance.hbs');
-// });
-
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
