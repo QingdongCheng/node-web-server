@@ -10,7 +10,10 @@
   "author": "Qingdong Cheng",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0",
-    "hbs": "^4.0.0"
+    "express": "^4.16.4",
+    "hbs": "^4.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.0"
   }
 }
